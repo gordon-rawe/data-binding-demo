@@ -11,6 +11,10 @@ import com.example.gordon.databindingdemo.BR;
 public class User extends BaseObservable {
     private String name;
 
+    public User(String name) {
+        this.name = name;
+    }
+
     @Bindable
     public String getName() {
         return name;
